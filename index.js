@@ -1,6 +1,6 @@
 function breakOut(array, changeValue, stopValue) {
   for(let i = 0; i < array.length; i++) {
-    if (array.[i] === stopValue) {
+    if (array[i] === stopValue) {
       break;
     }
     array.[i] = changeValue;
@@ -9,7 +9,7 @@ function breakOut(array, changeValue, stopValue) {
 
 function skipValue(array, changeValue, skipValue) {
   for(let i = 0; i < array.length; i++) {
-    if (array.[i] === skipValue) {
+    if (array[i] === skipValue) {
       continue;
     }
     array.[i] = changeValue;
